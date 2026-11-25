@@ -27,7 +27,7 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     }
     nav img {
-      height: 40px;Unplugged
+      height: 40px;
       width: auto;
     }
     nav .app-name {
@@ -63,6 +63,7 @@
       margin-top: 2rem;
       font-size: 1.25rem;
     }
+    strong.inline { color: inherit; }
     ul {
       margin-left: 1.5rem;
     }
@@ -100,61 +101,87 @@
   <!-- Navbar -->
   <nav>
     <div style="display:flex; align-items:center;">
-      <img src="zen-screen-logo_480.png" alt="ZenScreen Logo">
+      <img src="zen-screen-logo_480.png" alt="Unplugged Logo">
       <span class="app-name">Unplugged</span>
     </div>
   </nav>
 
   <header>
     <h1>Privacy Policy</h1>
-    <p>Unplugged: Limit screen time</p>
+    <p>Unplugged: App Blocker &amp; Focus Timer</p>
   </header>
 
   <main>
-    <p>This privacy policy applies to the Unplugged: Limit screen time app (hereby referred to as "Application") for mobile devices that was created by Arifur Rahman (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".</p>
 
-    <h2>Information Collection and Use</h2>
-    <p>The Application collects information when you download and use it. This information may include:</p>
-    <ul>
-      <li>Your device's Internet Protocol address (e.g. IP address)</li>
-      <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
-      <li>The time spent on the Application</li>
-      <li>The operating system you use on your mobile device</li>
-    </ul>
-    <p>The Application does not gather precise information about the location of your mobile device.</p>
-    <p>The Service Provider may use the information you provided to contact you with important updates, required notices, and marketing promotions.</p>
+  <main>
+    <p>This privacy policy applies to the Unplugged app (hereby referred to as "Application") for iPhone and iPad, created by Arifur Rahman (hereby referred to as "Service Provider") as a Freemium service. The Application helps you block distracting apps and websites, set app time limits, run focus timers and view your screen time. It is provided "AS IS".</p>
 
-    <h2>Third Party Access</h2>
-    <p>Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application. Below are links to the privacy policies of third-party services used:</p>
+    <p>In short: your screen time data, blocked apps, schedules, photos and videos stay on your device. The Service Provider does not sell your data, does not show ads and does not require an account.</p>
+
+    <h2>Screen Time Data</h2>
+    <p>The Application uses Apple's Screen Time frameworks (Family Controls, Device Activity and Managed Settings) to block apps and websites and to show your screen time, pickups and activity reports. With these frameworks:</p>
     <ul>
-      <li><a href="https://firebase.google.com/support/privacy">Google Analytics for Firebase</a></li>
-      <li><a href="https://firebase.google.com/support/privacy/">Firebase Crashlytics</a></li>
+      <li>The apps, categories and websites you choose to block are given to the Application only as anonymous tokens created by Apple. The Service Provider cannot see which apps or websites you selected.</li>
+      <li>Your screen time and usage reports are calculated by iOS and shown inside a protected Apple extension on your device. This data is never sent to the Service Provider or to any third party.</li>
     </ul>
 
-    <h2>Opt-Out Rights</h2>
-    <p>You can stop all collection of information by uninstalling the Application through your device’s standard uninstall process.</p>
+    <h2>Information Stored on Your Device</h2>
+    <p>The following information is stored only on your device and is not uploaded by the Application:</p>
+    <ul>
+      <li>Your Quick Timer, App Time Limit, Schedule Block and App Lock settings, focus sessions, streaks and app preferences.</li>
+      <li><strong class="inline">Face Your Self:</strong> the short video you record or choose is saved inside the Application's private storage and is played back before you unlock an app. It is never uploaded. You can replace it in the Application, and it is removed when you delete the Application.</li>
+      <li><strong class="inline">Touch Grass:</strong> the photo you take is checked on your device by a built-in machine learning model to confirm it shows grass. The photo is not saved or uploaded.</li>
+      <li>Your purchase status, so that premium features keep working offline.</li>
+    </ul>
 
-    <h2>Data Retention Policy</h2>
-    <p>The Service Provider retains user data while you use the Application and for a reasonable time thereafter. To request deletion of your data, contact <a href="mailto:arifurrahman.bc@gmail.com">arifurrahman.bc@gmail.com</a>.</p>
+    <h2>Camera and Microphone</h2>
+    <p>The Application asks for camera access only for the Touch Grass and Face Your Self interruptions, and microphone access only to record sound with your Face Your Self video. You can turn off either permission at any time in your device's Settings; these features will then not work.</p>
+
+    <h2>Analytics and Crash Reports</h2>
+    <p>To understand how the Application is used and to fix bugs, the Application uses Google Analytics for Firebase and Firebase Crashlytics. These services may collect:</p>
+    <ul>
+      <li>Which screens and features of the Application are used, and app events such as starting a focus session or opening the paywall.</li>
+      <li>Device model, operating system version, app version, language and an app instance identifier.</li>
+      <li>Approximate region (country or city level) derived from your IP address.</li>
+      <li>Crash logs and diagnostic information when the Application crashes.</li>
+    </ul>
+    <p>This information is not linked to your name or email and does not include the apps or websites you block or your screen time data. The Application does not collect your precise location and does not use advertising identifiers for tracking. Links to the privacy policies of these services:</p>
+    <ul>
+      <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+      <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+    </ul>
+
+    <h2>Purchases</h2>
+    <p>Subscriptions and the lifetime purchase are processed by Apple through the App Store. The Service Provider does not receive your name, Apple ID, or payment details; the Application only receives confirmation from Apple of what you have purchased. Apple's handling of your data is covered by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a>.</p>
+
+    <h2>Contacting Support</h2>
+    <p>If you send feedback or a support request by email, the Service Provider receives your email address and anything you include in the message. This is used only to reply to you and is not shared.</p>
+
+    <h2>How Information Is Used and Shared</h2>
+    <p>Information is used only to run, maintain and improve the Application and to respond to you. The Service Provider does not sell, rent or share your personal information, except with the service providers listed above or when required by law.</p>
+
+    <h2>Data Retention and Deletion</h2>
+    <p>Data stored on your device stays until you delete it in the Application or delete the Application. Analytics and crash data are kept by Firebase according to its retention settings. To ask for deletion of any data held about you, contact <a href="mailto:arifurrahman.bc@gmail.com">arifurrahman.bc@gmail.com</a>.</p>
 
     <h2>Children</h2>
-    <p>The Application does not knowingly collect or market to children under 13. If a child under 13 provides personal data, it will be deleted immediately. Parents or guardians may contact the Service Provider for necessary actions.</p>
+    <p>The Application is not directed at children under 13 and does not knowingly collect personal information from them. If you believe a child under 13 has provided personal information, contact the Service Provider and it will be deleted.</p>
 
     <h2>Security</h2>
-    <p>The Service Provider safeguards your information with physical, electronic, and procedural measures.</p>
+    <p>The Service Provider uses reasonable measures to protect your information, including keeping most data on your device and storing purchase status in the iOS Keychain. No method of storage or transmission is completely secure.</p>
 
     <h2>Changes</h2>
-    <p>This Privacy Policy may be updated from time to time. Continued use of the Application indicates acceptance of any changes. Effective date: <strong>2025-08-18</strong></p>
+    <p>This Privacy Policy may be updated from time to time. Changes will be posted on this page. Continued use of the Application after a change means you accept the updated policy.</p>
+    <p>Effective date: <b>2026-11-25</b></p>
 
     <h2>Your Consent</h2>
-    <p>By using the Application, you consent to the processing of your information as described in this Privacy Policy.</p>
+    <p>By using the Application, you agree to the processing of your information as described in this Privacy Policy.</p>
 
     <h2>Contact Us</h2>
-    <p>If you have questions about privacy, contact us at <a href="mailto:arifurrahman.bc@gmail.com">arifurrahman.bc@gmail.com</a>.</p>
+    <p>If you have questions about privacy, contact <a href="mailto:arifurrahman.bc@gmail.com">arifurrahman.bc@gmail.com</a>.</p>
   </main>
 
   <footer>
-    &copy; 2025 Unplugged. All rights reserved.
+    &copy; 2026 Unplugged. All rights reserved.
   </footer>
 </body>
 </html>
